@@ -1,8 +1,0 @@
-server:
-  port: 8989
-
-spring:
-  datasource:
-    username: postgres
-    password: admin
-    url: jdbc:postgresql://localhost:5432/postgres?axwebproject

@@ -18,7 +18,7 @@ public class TestController {
     @GetMapping("/test")
     public String testController(Model model) {
 
-        TestUser user = repository.getById(1L);
+        TestUser user = repository.getById(0L);
 
         model.addAttribute("username", user.getUsername());
 
